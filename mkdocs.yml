@@ -1,18 +1,20 @@
-site_name: My site
+site_name: Spatial transcriptomics workshop
 nav:
     - Home: index.md
     - Precourse preparations: precourse.md
     - Course schedule: course_schedule.md
+    - Materials: materials.md
     - Exercises: exercises.md
-
+    - Useful links: links.md
+    
 theme:
   name: material
   logo: assets/images/SIB_logo.svg
   favicon: assets/images/SIB_logo.svg
 
 # Repository
-repo_name: GeertvanGeest/course_website_template
-repo_url: https://github.com/GeertvanGeest/course_website_template
+repo_name: sib-swiss/spatial-transcriptomics
+repo_url: https://github.com/sib-swiss/spatial-transcriptomics
 
 markdown_extensions:
   - abbr
