@@ -1,35 +1,19 @@
+
 ## Overview
 
-Experiments designed to quantify gene expression often yield hundreds of genes that show statistically significant differences between two classes (two biological states, two phenotype states, two experimental conditions, etc). 
-Once differentially expressed genes are identified, enrichment analysis (EA) methods can be conducted to identify groups of genes (e.g. particular pathways) that are differentially expressed, and offer insights into biological mechanisms. 
-One example of such a method is the Gene Set Enrichment Analysis (GSEA), which is frequently used for high-throughput gene expression data analysis.
+Single-cell RNA sequencing (scRNA-seq) technologies enable to define the gene expression profiles of single cells allowing the characterisation of heterogeneous cell populations. However, scRNA-seq lacks the spatial context because the tissue must be dissociated. To overcome this issue, spatial transcriptomics (ST) is a new and evolving technology that measures transcriptomic information while preserving spatial information. Consequently, ST can unravel the complexity of biology, especially the molecular mechanisms behind diseases that cannot be understood by other technologies.
 
-This course will cover GSEA and alternative enrichment tools. Because most of their implementations are directly linked to databases that annotate the function of genes in the cell, the course will also give an overview of functional annotation databases such as the Gene Ontology.
+There are different ST techniques with different technical parameters, and there is often a trade-off between the number of genes profiled and the resolution level of the technology. In this tutorial, we will present an overview of the different methods currently available to perform ST, their strengths and drawbacks. The focus will be on the two main methods: spot-based (10x Visium) and in-situ (10x Xenium) technologies. Spot-based technology allows the detection of the whole transcriptome across an entire slice of tissue with high sensitivity and specificity, but it does not yield single-cell resolution. In contrast, the newest in-situ technology Xenium released at the end of 2022 allows us to have an extremely high resolution at subcellular level, but it can be biased due to the requirement of pre-selected gene targets. These two technologies can be complementary as Xenium data can be used to interpolate the cell composition of Visium spots and leverage Visium whole transcriptomics to understand tissue heterogeneity and discover new biomarkers.
+
+Therefore, in this tutorial, we will use computational tools to analyse Chromium single-cell RNA-seq, as well as Visium and Xenium data to show how whole transcriptome and targeted in-situ data can be integrated to provide highly complementary and additive biological information. Lectures and practical training will provide entry-level guidance for participants interested in ST data analysis.
 
 ## Learning outcomes
 
-At the end of the course, the participants will be able to:
-
-1. Distinguish available enrichment analysis methods
-2. Apply GSEA and over-representation analysis using R
-3. Determine whether the genes of a GO term have a statistically significant difference in expression or not
-4. Learn where to find other gene sets in databases (e.g. KEGG, oncogenic gene sets) and use them in R
+At the end of this tutorial, attendees will understand how the different ST technologies work, and the advantages and limitations of each of the methods. This tutorial will provide the participants with theory and practical training to analyse ST data (Visium and Xenium), as well as a guide to the most recent computational tools to perform more advanced ST analysis. With the provided guidance of the instructors, participants will be able to independently analyse different ST data
 
 ## Exercises
 
-The course is divided into small blocks, each with a lecture and relevant practical exercises. We will comment the practical exercises at the end of each block.
+The course is divided into small blocks, with lectures and relevant practical exercises. We will comment/provide a demo of the practical exercises.
 
-## Asking questions
-During lectures, you are encouraged to ask questions. Just unmute yourself and ask your questions or use the Zoom functionality. Find the buttons in the participants list ('Participants' button):
-
-<figure>
-  <img src="assets/images/zoom_icons.png" width="300"/>
-</figure>
-
-Alternatively, (depending on your zoom version or OS) use the 'Reactions' button:
-
-<figure>
-  <img src="assets/images/reactions_zoom.png" width="200"/>
-</figure>
 
 

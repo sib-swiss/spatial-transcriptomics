@@ -6,10 +6,12 @@ Slides of lectures:
 
 <!-- [Download part 2](assets/pdf/EA_122021_ID.PDF){: .md-button } -->
 
-
 ## Data for exercises
 [Download data](assets/exercises/data.zip){: .md-button }
 
+[custom R functions](assets/exercises/utils_new.R){: .md-button }
+
+[Rmarkdown file](assets/exercises/BC2_Tutorial.Rmd){: .md-button }
 
 <!-- This is commented text -->
 <!-- [Download part 2](../assets/pdfs/EA_122021_TW.pdf){: .md-button } -->
