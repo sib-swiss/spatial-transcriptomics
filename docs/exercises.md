@@ -5,8 +5,8 @@ In this section, you will find the R code that we will use during the course. We
 
 We will work with spatial transcriptomics data of human breast tumor, that was profiled using 3 10x technologies: Chromium scRNAseq on FFPE-fixed single cells, Visium on FFPE slide, and Xenium  [Janesick et al, bioRxiv](https://www.biorxiv.org/content/10.1101/2022.10.06.510405v1). 
 
-Before starting the exercises, set the working directory to where you have downloaded and unzipped the [data folder]() with the files for the exercises and load the necessary packages. Make sure you download also the R script with the [custom functions]() that will be sourced.
-On the materials page, you may download an Rmd file that contains the code presented here.
+Before starting the exercises, set the working directory to where you have downloaded the [data](https://sib-swiss.github.io/spatial-transcriptomics/materials/) with the files for the exercises and load the necessary packages. An R script with custom functions will be made available to the participants privately. Make sure you source the script with the custom functions.
+On the materials page, you may also download an Rmd file that contains the code presented here.
 
 !!! warning
     When using setwd(), change the path within quotes to where you have saved the data for the exercises
